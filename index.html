@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Rock, Paper, Scissors</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="toggle-rules"></div>
+                                        
+  <section id="rules">
+
+    <div class="rules-disp hide">
+      <div class="row" id="rules-row1">
+        <div class="col-6">
+          <h3 class="rules-title">RULES</h3>
+        </div>
+        <div class="col-6">
+          <div class="closebt">
+            <img src="images/icon-close.svg" alt="close" class="closebt">
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="rules-row2">
+        <div class="col">
+          <h3 class="rules-title">RULES</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="images/image-rules.svg" alt="rules">
+        </div>
+      </div>
+
+      <div class="row" id="rules-row3">
+        <div class="col">
+          <img src="images/icon-close.svg" alt="closse" class="closebt">
+        </div>
+      </div>
+    </div>
+  </section>
+
+                                              
+  <section id="game-head">
+    <div class="container-fluid game-title">
+      <div class="row game-head">
+        <div class="col-6">
+          <div class="title">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="score-card">
+            <p class="score-title">SCORE</p>
+            <h1 class="score">0</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+                                                        
+<section id="play-game" class="">
+<div class="new-game">
+              <div class="row" id="row1">
+                <div class="col-6">
+                  <div class="game-obj paper pent-topv" id="paper">
+                    <div class="white-area">
+                      <img src="images/icon-paper.svg" alt="paper">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="game-obj scissors pent-topv" id="scissors">
+                    <div class="white-area">
+                      <img src="images/icon-scissors.svg" alt="scissors">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row" id="row2">
+                <div class="col">
+                  <div class="game-obj rock" id="rock">
+                    <div class="white-area">
+                      <img src="images/icon-rock.svg" alt="rock">
+                    </div>
+                  </div>
+                </div>
+              </div>
+</div>
+<div class="back-pent">
+  <img src="images/bg-triangle.svg" alt="pentagon">
+</div>
+</section>
+
+
+                                                    
+
+<section id="result" class="hide">
+
+  <div class="results">
+    <div class="row">
+      <div class="col-lg-4 col-6">
+
+        <div class="you-chose">
+          <h3>YOU PICKED</h3>
+
+          <div class="user-choice">
+            <div class="white-area">
+              <div class="user-wins">
+
+              </div>
+              <img src="images/icon-scissors.svg" alt="user-choice">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 message1">
+        <div class="message ">
+          <h1>MESSAGE</h1>
+          <p type="button" name="button" class="play-again">PLAY AGAIN</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-6">
+        
+        <div class="i-chose">
+          <h3>THE HOUSE PICKED</h3>
+          <div class="house-choice">
+            <div class="white-area">
+              <div class="house-wins">
+
+              </div>
+              <img src="images/icon-scissors.svg" alt="house-choice">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col message2">
+        <div class="message">
+          <h1>MESSAGE</h1>
+          <p name="button" class="play-again">PLAY AGAIN</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+                                          
+
+<div class="rules">
+<p class="rules-button">RULES</p>
+</div>
+
+<br><br><br><br>
+  <div class="attribution">
+    Coded by <a href="https://github.com/algoristy">Algoristy</a>.
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
